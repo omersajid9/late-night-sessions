@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    # our runnable applications
+    "crates/conduit-bin",
+    "crates/conduit-web",
+    # our dependent library crates
+    "crates/conduit-api",
+    "crates/conduit-core",
+    "crates/conduit-domain",
+    "crates/conduit-infrastructure",
+]
+
+[profile.release]
+debug = true

@@ -1,0 +1,14 @@
+{
+    "name": "Notebook",
+    "short_name": "Notebook PWA",
+    "icons": [{
+      "src": "./icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }],
+    "lang": "en-US",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "black"
+  }
