@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+mycalculatorapp = "7uKxfCFQ2GEop4fguSKbnKATXZjC2QkKTAZbCDDnP1Jc"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = 'C:\\Users\omers\.config\solana\id.json'
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
